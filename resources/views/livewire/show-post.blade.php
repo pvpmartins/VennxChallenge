@@ -1,4 +1,4 @@
-<div>
+<div class="mb-4 mt-4">
     @if ($showUpdateForm)
         <div >
         <div wire:click="toggleUpdateForm" class="text-gray-600 mt-2 hover:underline flex items-center"><div 

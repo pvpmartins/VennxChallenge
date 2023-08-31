@@ -16,7 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained(); // Foreign key reference to users table
             $table->string('title');
             $table->text('description');
-            $table->string('img_url')->nullable();
+            $table->text('img_url')->nullable();
             $table->timestamps();
         });
     }
