@@ -8,10 +8,10 @@ depois de alguns minutos, a aplicação estará disponivel em http://0.0.0.0/
 para finalizar, rodar as migrations no diretorio da aplicação com 
 
 ```
-./vendor/bin/sail artisan migrate
+docker-compose exec laravel.test php artisan migrate
 ```
 
 e fazer o seeding do banco de dados com:
 ```
-./vendor/bin/sail artisan db:seed
+docker-compose exec laravel.test php artisan db:seed
 ```
