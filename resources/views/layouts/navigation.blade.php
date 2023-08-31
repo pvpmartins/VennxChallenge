@@ -7,12 +7,12 @@
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
                        <label style="font-family: 'Arial', sans-serif;
-    font-size: 24px;
-    color: #000000;
-    background-color: #FFFFFF;
-    padding: 10px 20px;
-    border: 2px solid #000000;
-    border-radius: 5px;" for="">Vennx News</label>
+                        font-size: 24px;
+                        color: #000000;
+                        background-color: #FFFFFF;
+                        padding: 10px 20px;
+                        border: 2px solid #000000;
+                        border-radius: 5px;" for="">Vennx News</label>
                     </a>
                     
                 </div>
